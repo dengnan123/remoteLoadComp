@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import React, { useRef, useCallback } from "react";
-import ReactDOM from "react-dom";
-import { useDeepCompareEffect } from "react-use";
-import UmdLoader from "./components/UmdLoader";
-import ErrorWrap from "./components/ErrorWrap";
+import React, { useRef, useCallback } from 'react';
+import ReactDOM from 'react-dom';
+import { useDeepCompareEffect } from 'react-use';
+import UmdLoader from './components/UmdLoader';
+import ErrorWrap from './components/ErrorWrap';
 
 export default function RemoteLoadComp({
   plugins = [],
