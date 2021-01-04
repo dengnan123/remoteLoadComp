@@ -1,0 +1,16 @@
+#npm
+node_modules
+
+#umi
+.umi
+.umi-production
+dist
+lib
+es
+*zip-dist
+*.zip
+
+#misc
+.DS_Store
+package-lock.json
+yarn-error.log
